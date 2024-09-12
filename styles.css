@@ -294,6 +294,7 @@ header ul li:nth-child(1) a {
   background: #0d0d0d;
   border-radius: 1rem;
   max-width: 450px;
+  width: 50%;
 }
 
 .project-image-container {
@@ -331,7 +332,7 @@ header ul li:nth-child(1) a {
   font-weight: 400;
   line-height: 30px;
   overflow: hidden;
-  white-space: pre-wrap;
+  
 }
 
 .check-project {
@@ -628,7 +629,7 @@ header ul li:nth-child(1) a {
   --font-color: #323232;
   --bg-color: #150b0b;
   
-  height: 550px;
+  
   border-radius: 20px;
   background: var(--bg-color);
   box-shadow: -9px 9px 18px #270404,
@@ -648,9 +649,9 @@ header ul li:nth-child(1) a {
   align-items: center;
 }
 .tarjeta{
-  padding: 1em;
+  
   margin: 20px;
-  width: calc(90% - 20px);
+  width: calc(70% - 20px);
 }
 .card__img{
   padding: 20px;
