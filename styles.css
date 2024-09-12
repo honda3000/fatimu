@@ -628,7 +628,7 @@ header ul li:nth-child(1) a {
   --font-color: #323232;
   --bg-color: #150b0b;
   
-  height: 400px;
+  height: 550px;
   border-radius: 20px;
   background: var(--bg-color);
   box-shadow: -9px 9px 18px #270404,
@@ -653,6 +653,7 @@ header ul li:nth-child(1) a {
   width: calc(90% - 20px);
 }
 .card__img{
+  padding: 20px;
   width: 100%;
   height: 100%;
   object-fit: cover;
