@@ -359,7 +359,7 @@ header ul li:nth-child(1) a {
   color: crimson;
 }
 
-.contact {
+.gallery {
   position: relative;
   display: flex;
   font-size: 2em;
@@ -367,7 +367,7 @@ header ul li:nth-child(1) a {
   padding-block: 2rem;
 }
 
-.contact .container {
+.gallery .container {
   width: 70%;
   margin: auto;
   display: flex;
@@ -375,11 +375,11 @@ header ul li:nth-child(1) a {
   align-items: center;
 }
 
-.contact .wrapper {
+.gallery .wrapper {
   font-size: 30px;
 }
 
-.contact .wrapper .grp {
+.gallery .wrapper .grp {
   text-align: center;
 
   display: flex;
@@ -389,16 +389,16 @@ header ul li:nth-child(1) a {
   gap: 1rem;
 }
 
-.contact .grp:not(:last-child) {
+.gallery .grp:not(:last-child) {
   margin-bottom: 1.5rem;
 }
 
-.contact .grp i {
+.gallery .grp i {
   font-size: 40px;
   margin-right: 1rem;
 }
 
-.contact .footer {
+.gallery .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -407,7 +407,7 @@ header ul li:nth-child(1) a {
   margin-top: 3rem;
 }
 
-.contact .footer p {
+.gallery .footer p {
   font-size: 40px;
   font-weight: 200;
   color: white;
@@ -415,7 +415,7 @@ header ul li:nth-child(1) a {
   position: relative;
 }
 
-.contact .footer p::after {
+.gallery .footer p::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -427,7 +427,7 @@ header ul li:nth-child(1) a {
   border-radius: 1rem;
 }
 
-.contact .footer a {
+.gallery .footer a {
   text-decoration: none;
   background: crimson;
   color: #eee;
@@ -441,7 +441,7 @@ header ul li:nth-child(1) a {
   transition: 0.2s ease-in;
 }
 
-.contact .footer a:hover {
+.gallery .footer a:hover {
   transform: scale(1.05);
 }
 /* contact  */
@@ -582,15 +582,15 @@ header ul li:nth-child(1) a {
 }
 
 @media only screen and (max-width: 768px) {
-  .contact .header h1 {
+  .gallery .header h1 {
     font-size: 30px;
   }
-  .contact .header h3 {
+  .gallery .header h3 {
     font-size: 20px;
     margin-bottom: -0.5rem;
   }
-  .contact .grp i,
-  .contact .grp span {
+  .gallery .grp i,
+  .gallery .grp span {
     font-size: 25px;
   }
 
@@ -628,7 +628,7 @@ header ul li:nth-child(1) a {
     height: 220px;
   }
 
-  .contact .grp i {
+  .gallery .grp i {
     margin-right: 0 !important;
   }
 }
